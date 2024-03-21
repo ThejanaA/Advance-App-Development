@@ -1,0 +1,63 @@
+/* UserProfile.css */
+
+.user-profile {
+  width: 80%;
+  margin: auto;
+}
+
+.user-profile h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Use a serif font for a classy look */
+}
+
+.user-profile table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Add border radius for a softer appearance */
+  overflow: hidden; /* Hide overflow to prevent box shadow from being cut off */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.user-profile th, .user-profile td {
+  border: 1px solid #e0e0e0; /* Use a lighter border color for a subtle effect */
+  padding: 12px; /* Increase padding for better spacing */
+  text-align: center; /* Center align table cells */
+}
+
+.user-profile th {
+  background-color: #f2f2f2; /* Use a light background color for table headers */
+  font-weight: bold; /* Make table headers bold */
+}
+
+.user-profile tr:nth-child(even) {
+  background-color: #f9f9f9; /* Use a slightly darker background color for even rows */
+}
+
+.user-profile tr:hover {
+  background-color: #e0e0e0; /* Use a slightly darker background color on hover */
+}
+
+.user-profile button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px; /* Increase padding for better button size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px; /* Add margin-right for space between buttons */
+  transition: background-color 0.3s ease; /* Add smooth transition on hover */
+}
+
+.user-profile button:hover {
+  background-color: #45a049;
+}
+
+.user-profile button.delete {
+  background-color: #f44336;
+}
+
+.user-profile button.delete:hover {
+  background-color: #d32f2f;
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import UserNav from "../Components/UserNav";
+import AdminNav from "../Components/AdminNav";
 import AdminDashboard from "./AdminDashboard";
 
 function AdminPanel() {
   return (
     <div>
-     <UserNav/>
+       <AdminNav/>
       <AdminDashboard />
     </div>
   );

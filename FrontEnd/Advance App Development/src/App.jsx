@@ -16,11 +16,13 @@ import AdminDashboard from "./Pages/AdminDashboard";
 import Profile from "./Components/Profile";
 import Cards from "./Cards";
 import Paymenthistory from "./Pages/PaymentHistory";
+import AddInstitution from "./Pages/AddInstitutions";
+import UserProfile from "./Pages/UserProfile";
 
 function App() {
   return (
     <BrowserRouter>
-      
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/login" element={<Login />}></Route>
@@ -35,6 +37,8 @@ function App() {
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/cards" element={<Cards />}></Route>
         <Route path="/paymenthistory" element={<Paymenthistory />}></Route>
+        <Route path="/addinstitution" element={<AddInstitution />}></Route>   
+        <Route path="/userprofile" element={<UserProfile />}></Route>   
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>

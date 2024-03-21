@@ -1,0 +1,48 @@
+/* PaymentHistory.css */
+
+/* Table styles */
+.table-fixed {
+  width: 80%;
+  margin: auto;
+}
+
+.table-fixed th,
+.table-fixed td {
+  border: 1px solid #e2e8f0;
+  padding: 8px;
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+  white-space: nowrap; /* Prevent wrapping of text */
+}
+
+.table-fixed th {
+  background-color: #edf2f7;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+/* Edit button */
+.bg-blue-500 {
+  background-color: #4a90e2;
+}
+
+.bg-blue-600:hover {
+  background-color: #357bd8;
+}
+
+/* Delete button */
+.bg-red-500 {
+  background-color: #e53e3e;
+}
+
+.bg-red-600:hover {
+  background-color: #c53030;
+}

@@ -1,42 +1,27 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
-    <div className="bg-white p-4">
-      <footer className="bg-white rounded-lg shadow h-auto">
-        <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 flex justify-center">
-            © 2023{" "}
-            <Link to="/" className="hover:underline">
-              EdugateWay
-            </Link>
-            . All Rights Reserved.
-          </span>
-          <ul className="flex flex-wrap items-center justify-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 gap-1">
-            <li>
-              <a href="#about" className="hover:underline me-4 md:me-6">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#diff" className="hover:underline me-4 md:me-6">
-                Pros
-              </a>
-            </li>
-            <li>
-              <a href="#content" className="hover:underline me-4 md:me-6">
-                Why ?
-              </a>
-            </li>
-            <li>
-              <a href="#partners" className="hover:underline">
-                Partners
-              </a>
-            </li>
-          </ul>
+    <footer className="bg-gray-200 py-4 text-center">
+      <div className="container mx-auto">
+        <p className="text-sm text-gray-600">
+          © {new Date().getFullYear()} Your Company. All Rights Reserved.
+        </p>
+        <div className="mt-2">
+          <a href="#" className="text-gray-600 hover:underline mx-2">
+            About
+          </a>
+          <a href="#" className="text-gray-600 hover:underline mx-2">
+            Contact
+          </a>
+          <a href="#" className="text-gray-600 hover:underline mx-2">
+            Privacy Policy
+          </a>
+          <a href="#" className="text-gray-600 hover:underline mx-2">
+            Terms of Service
+          </a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
+
 export default Footer;
