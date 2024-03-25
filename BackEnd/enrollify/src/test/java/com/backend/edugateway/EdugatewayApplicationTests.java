@@ -1,10 +1,10 @@
-package com.backend.enrollify;
+package com.backend.edugateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EnrollifyApplicationTests {
+class EdugatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
